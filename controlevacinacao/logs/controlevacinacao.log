@@ -1,0 +1,108 @@
+2025-03-28T20:04:56.596-03:00  INFO 34073 --- [restartedMain] w.c.ControleVacinacaoApplication         : Starting ControleVacinacaoApplication using Java 23.0.2 with PID 34073 (/home/mara_202501/Documentos/DAW 01/Pratica3Spring/Pratica 03 Arquivos Necessarios/controlevacinacao/target/classes started by mara_202501 in /home/mara_202501/Documentos/DAW 01/Pratica3Spring/Pratica 03 Arquivos Necessarios/controlevacinacao)
+2025-03-28T20:04:56.600-03:00 DEBUG 34073 --- [restartedMain] w.c.ControleVacinacaoApplication         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-28T20:04:56.600-03:00  INFO 34073 --- [restartedMain] w.c.ControleVacinacaoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-28T20:04:56.748-03:00  INFO 34073 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28T20:04:56.749-03:00  INFO 34073 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28T20:04:57.256-03:00  INFO 34073 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28T20:04:57.276-03:00  INFO 34073 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-03-28T20:04:57.721-03:00  INFO 34073 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-03-28T20:04:57.733-03:00  INFO 34073 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-03-28T20:04:57.733-03:00  INFO 34073 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-28T20:04:57.767-03:00  INFO 34073 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-03-28T20:04:57.767-03:00  INFO 34073 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2025-03-28T20:04:58.129-03:00  INFO 34073 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-03-28T20:04:58.281-03:00  INFO 34073 --- [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35357b5f
+2025-03-28T20:04:58.283-03:00  INFO 34073 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-03-28T20:04:58.553-03:00  INFO 34073 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28T20:04:59.071-03:00  INFO 34073 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28T20:04:59.191-03:00  INFO 34073 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-28T20:05:00.014-03:00  INFO 34073 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-28T20:05:00.022-03:00  INFO 34073 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2025-03-28T20:05:00.075-03:00  INFO 34073 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-03-28T20:05:00.087-03:00  INFO 34073 --- [restartedMain] w.c.ControleVacinacaoApplication         : Started ControleVacinacaoApplication in 3.811 seconds (process running for 4.317)
+2025-03-28T20:05:02.606-03:00  INFO 34073 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28T20:05:02.606-03:00  INFO 34073 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-03-28T20:05:02.607-03:00  INFO 34073 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-03-28T20:05:31.298-03:00 TRACE 34073 --- [http-nio-8080-exec-1] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T20:05:31.299-03:00 TRACE 34073 --- [http-nio-8080-exec-1] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T20:07:24.566-03:00 TRACE 34073 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T20:07:24.567-03:00 TRACE 34073 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T20:07:25.858-03:00 TRACE 34073 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T20:07:25.858-03:00 TRACE 34073 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T20:07:26.997-03:00 TRACE 34073 --- [http-nio-8080-exec-7] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T20:07:26.997-03:00 TRACE 34073 --- [http-nio-8080-exec-7] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T20:07:28.149-03:00 TRACE 34073 --- [http-nio-8080-exec-5] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T20:07:28.149-03:00 TRACE 34073 --- [http-nio-8080-exec-5] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T20:07:29.277-03:00 TRACE 34073 --- [http-nio-8080-exec-2] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T20:07:29.278-03:00 TRACE 34073 --- [http-nio-8080-exec-2] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T20:19:19.120-03:00  INFO 34073 --- [SpringApplicationShutdownHook] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28T20:19:19.125-03:00  INFO 34073 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-03-28T20:19:19.151-03:00  INFO 34073 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28T20:19:19.164-03:00  INFO 34073 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-03-28T20:19:19.169-03:00  INFO 34073 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-03-28T20:23:39.642-03:00  INFO 43851 --- [restartedMain] w.c.ControleVacinacaoApplication         : Starting ControleVacinacaoApplication using Java 23.0.2 with PID 43851 (/home/mara_202501/Documentos/DAW 01/Pratica3Spring/Pratica 03 Arquivos Necessarios/controlevacinacao/target/classes started by mara_202501 in /home/mara_202501/Documentos/DAW 01/Pratica3Spring/Pratica 03 Arquivos Necessarios/controlevacinacao)
+2025-03-28T20:23:39.646-03:00 DEBUG 43851 --- [restartedMain] w.c.ControleVacinacaoApplication         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-03-28T20:23:39.647-03:00  INFO 43851 --- [restartedMain] w.c.ControleVacinacaoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-28T20:23:39.780-03:00  INFO 43851 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28T20:23:39.780-03:00  INFO 43851 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28T20:23:40.301-03:00  INFO 43851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-28T20:23:40.316-03:00  INFO 43851 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2025-03-28T20:23:40.796-03:00  INFO 43851 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-03-28T20:23:40.813-03:00  INFO 43851 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-03-28T20:23:40.814-03:00  INFO 43851 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-28T20:23:40.847-03:00  INFO 43851 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-03-28T20:23:40.847-03:00  INFO 43851 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2025-03-28T20:23:41.228-03:00  INFO 43851 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-03-28T20:23:41.330-03:00  INFO 43851 --- [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5bad9d3d
+2025-03-28T20:23:41.331-03:00  INFO 43851 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-03-28T20:23:41.349-03:00  INFO 43851 --- [restartedMain] o.f.c.FlywayExecutor                     : Database: jdbc:postgresql://localhost:5432/controlevacinacao (PostgreSQL 17.2)
+2025-03-28T20:23:41.370-03:00  INFO 43851 --- [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table "public"."flyway_schema_history" does not exist yet
+2025-03-28T20:23:41.372-03:00  INFO 43851 --- [restartedMain] o.f.c.i.c.DbValidate                     : Successfully validated 1 migration (execution time 00:00.009s)
+2025-03-28T20:23:41.381-03:00  INFO 43851 --- [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "public"."flyway_schema_history" ...
+2025-03-28T20:23:41.423-03:00  INFO 43851 --- [restartedMain] o.f.c.i.c.DbMigrate                      : Current version of schema "public": << Empty Schema >>
+2025-03-28T20:23:41.428-03:00  INFO 43851 --- [restartedMain] o.f.c.i.c.DbMigrate                      : Migrating schema "public" to version "01 - cria tabela vacina"
+2025-03-28T20:23:41.446-03:00  INFO 43851 --- [restartedMain] o.f.c.i.c.DbMigrate                      : Successfully applied 1 migration to schema "public", now at version v01 (execution time 00:00.005s)
+2025-03-28T20:23:41.731-03:00  INFO 43851 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-28T20:23:42.219-03:00  INFO 43851 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-28T20:23:42.331-03:00  INFO 43851 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-28T20:23:43.031-03:00  INFO 43851 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-28T20:23:43.038-03:00  INFO 43851 --- [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 1 endpoint beneath base path '/actuator'
+2025-03-28T20:23:43.094-03:00  INFO 43851 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-03-28T20:23:43.104-03:00  INFO 43851 --- [restartedMain] w.c.ControleVacinacaoApplication         : Started ControleVacinacaoApplication in 3.805 seconds (process running for 4.279)
+2025-03-28T20:23:45.578-03:00  INFO 43851 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28T20:23:45.578-03:00  INFO 43851 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-03-28T20:23:45.579-03:00  INFO 43851 --- [RMI TCP Connection(2)-127.0.0.1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-03-28T21:06:00.766-03:00 TRACE 43851 --- [http-nio-8080-exec-1] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T21:06:00.766-03:00 TRACE 43851 --- [http-nio-8080-exec-1] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T21:06:03.113-03:00 TRACE 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Entrou no método: BasicErrorController.errorHtml
+2025-03-28T21:06:03.113-03:00 DEBUG 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Parâmetros recebidos:
+2025-03-28T21:06:03.113-03:00 DEBUG 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : 	request: org.apache.catalina.core.ApplicationHttpRequest@17da69eb
+2025-03-28T21:06:03.113-03:00 DEBUG 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : 	response: org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse@3932f6cc
+2025-03-28T21:06:03.116-03:00 TRACE 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: error
+2025-03-28T21:06:03.150-03:00 TRACE 43851 --- [http-nio-8080-exec-9] w.c.a.ApplicationLoggingAspect           : Entrou no método: BasicErrorController.error
+2025-03-28T21:06:03.150-03:00 DEBUG 43851 --- [http-nio-8080-exec-9] w.c.a.ApplicationLoggingAspect           : Parâmetros recebidos:
+2025-03-28T21:06:03.150-03:00 DEBUG 43851 --- [http-nio-8080-exec-9] w.c.a.ApplicationLoggingAspect           : 	request: org.apache.catalina.core.ApplicationHttpRequest@26cbe0b8
+2025-03-28T21:06:54.221-03:00 TRACE 43851 --- [http-nio-8080-exec-2] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T21:06:54.221-03:00 TRACE 43851 --- [http-nio-8080-exec-2] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T21:06:57.014-03:00 TRACE 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Entrou no método: BasicErrorController.errorHtml
+2025-03-28T21:06:57.014-03:00 DEBUG 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Parâmetros recebidos:
+2025-03-28T21:06:57.014-03:00 DEBUG 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : 	request: org.apache.catalina.core.ApplicationHttpRequest@4bdc5f81
+2025-03-28T21:06:57.014-03:00 DEBUG 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : 	response: org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse@51ba0163
+2025-03-28T21:06:57.015-03:00 TRACE 43851 --- [http-nio-8080-exec-8] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: error
+2025-03-28T21:07:05.012-03:00 TRACE 43851 --- [http-nio-8080-exec-10] w.c.a.ApplicationLoggingAspect           : Entrou no método: BasicErrorController.errorHtml
+2025-03-28T21:07:05.012-03:00 DEBUG 43851 --- [http-nio-8080-exec-10] w.c.a.ApplicationLoggingAspect           : Parâmetros recebidos:
+2025-03-28T21:07:05.012-03:00 DEBUG 43851 --- [http-nio-8080-exec-10] w.c.a.ApplicationLoggingAspect           : 	request: org.apache.catalina.core.ApplicationHttpRequest@6b5a9d6d
+2025-03-28T21:07:05.012-03:00 DEBUG 43851 --- [http-nio-8080-exec-10] w.c.a.ApplicationLoggingAspect           : 	response: org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse@223cfddd
+2025-03-28T21:07:05.017-03:00 TRACE 43851 --- [http-nio-8080-exec-10] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: error
+2025-03-28T21:07:08.443-03:00 TRACE 43851 --- [http-nio-8080-exec-3] w.c.a.ApplicationLoggingAspect           : Entrou no método: BasicErrorController.errorHtml
+2025-03-28T21:07:08.443-03:00 DEBUG 43851 --- [http-nio-8080-exec-3] w.c.a.ApplicationLoggingAspect           : Parâmetros recebidos:
+2025-03-28T21:07:08.443-03:00 DEBUG 43851 --- [http-nio-8080-exec-3] w.c.a.ApplicationLoggingAspect           : 	request: org.apache.catalina.core.ApplicationHttpRequest@37e46bb4
+2025-03-28T21:07:08.443-03:00 DEBUG 43851 --- [http-nio-8080-exec-3] w.c.a.ApplicationLoggingAspect           : 	response: org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse@a852cc3
+2025-03-28T21:07:08.448-03:00 TRACE 43851 --- [http-nio-8080-exec-3] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: error
+2025-03-28T21:07:18.969-03:00 TRACE 43851 --- [http-nio-8080-exec-2] w.c.a.ApplicationLoggingAspect           : Entrou no método: IndexController.index
+2025-03-28T21:07:18.969-03:00 TRACE 43851 --- [http-nio-8080-exec-2] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: index
+2025-03-28T21:07:20.820-03:00 TRACE 43851 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : Entrou no método: BasicErrorController.errorHtml
+2025-03-28T21:07:20.821-03:00 DEBUG 43851 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : Parâmetros recebidos:
+2025-03-28T21:07:20.821-03:00 DEBUG 43851 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : 	request: org.apache.catalina.core.ApplicationHttpRequest@2f360b43
+2025-03-28T21:07:20.821-03:00 DEBUG 43851 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : 	response: org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse@e0bd1a9
+2025-03-28T21:07:20.825-03:00 TRACE 43851 --- [http-nio-8080-exec-4] w.c.a.ApplicationLoggingAspect           : Encaminhando para a view: error
